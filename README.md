@@ -2,9 +2,9 @@
 
 ## Description
 
-This project contains of two parts -
-- [Cranes]() - API to create and manipulate the cranes
-- [UI]() - cmd line interface to execute the tasks
+This project contains of two parts and its required to run both of 'em-
+- [Cranes](https://github.com/ak-anirudh/tba-case/tree/main/yard-module-cranes) - API to create and manipulate the cranes
+- [UI](https://github.com/ak-anirudh/tba-case/tree/main/yard-module-UI) - cmd line interface to execute the tasks
 
 For building and running the application you need:
 
@@ -12,11 +12,6 @@ For building and running the application you need:
 - [Maven 3](https://maven.apache.org)
 
 ## Project Info
-
-This project consists of two applications and you need to run both of 'em -
-- Cranes (for crud operations on the db)
-- UI (command line to interact with the application)
-
 
 ## Running the application locally
 
