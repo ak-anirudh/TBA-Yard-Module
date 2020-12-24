@@ -1,0 +1,13 @@
+hostname: localhost
+
+services:
+  yard-module-crane:
+    url: http://${hostname}:8080/cranes/api/v1/
+
+server:
+  port: 8100
+
+logging:
+  level:
+    org.tbaCase: info
+
