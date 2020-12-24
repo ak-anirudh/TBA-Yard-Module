@@ -11,6 +11,13 @@ For building and running the application you need:
 - [JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Maven 3](https://maven.apache.org)
 
+## Project Info
+
+This project consists of two applications and you need to run both of 'em -
+- Cranes (for crud operations on the db)
+- UI (command line to interact with the application)
+
+
 ## Running the application locally
 
 There are several ways to run the application on your local machine. 
@@ -22,5 +29,3 @@ There are several ways to run the application on your local machine.
 mvn clean install
 mvn spring-boot:run
 ```
-
-## 
