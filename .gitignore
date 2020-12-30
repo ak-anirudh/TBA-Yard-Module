@@ -116,3 +116,11 @@ buildNumber.properties
 !.vscode/extensions.json
 *.code-workspace
 
+yard-module-cranes/.idea/$PROJECT_FILE$
+**/*.iml
+**/*.class
+*.jar
+**/target/*
+*.jar
+*.original
+*.lst

@@ -88,7 +88,7 @@ public class Application {
 	}
 
 	private static void printAllCranesInTheModule() {
-		System.out.println("Here's all vehicles:");
+		System.out.println("Here's all Cranes:");
 		ResponseEntity<List<Cranes>> responseEntity = new RestTemplate().exchange("http://localhost:8080/cranes/api/v1/",
 				HttpMethod.GET, null, new ParameterizedTypeReference<>() {
 				});
