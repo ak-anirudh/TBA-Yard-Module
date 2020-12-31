@@ -1,11 +1,10 @@
 package org.tbaCase.Cranes.service.impl;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.tbaCase.Cranes.model.Cranes;
 import org.tbaCase.Cranes.model.Position;
 import org.tbaCase.Cranes.model.Position.Direction;
-import org.tbaCase.Cranes.model.Cranes;
 import org.tbaCase.Cranes.repository.CranesRepository;
 import org.tbaCase.Cranes.service.CranesService;
 

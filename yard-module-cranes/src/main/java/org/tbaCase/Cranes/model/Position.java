@@ -10,6 +10,13 @@ import javax.persistence.*;
 @Table(name = "position")
 public class Position {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+
+	@Column(name = "x")
+	private final int x;
+
 	public enum Direction {
 		LEFT, RIGHT
 	}
@@ -20,12 +27,6 @@ public class Position {
 
 	public static Position START = Position.of(0);
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
-
-	@Column(name = "x")
-	private final int x;
 
 	private Position(int x) {
 		this.x = x;

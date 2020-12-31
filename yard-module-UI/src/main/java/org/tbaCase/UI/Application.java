@@ -76,9 +76,9 @@ public class Application {
 	private static void move(long id, String direction) {
 		Map<String, Long> uriVariables = new HashMap<>();
 		uriVariables.put("id", id);
-		new RestTemplate()
-				.getForEntity("http://localhost:8080/cranes/api/v1/{id}/move" + direction, String.class, uriVariables)
-				.getBody();
+			new RestTemplate()
+					.getForEntity("http://localhost:8080/cranes/api/v1/{id}/move" + direction, String.class, uriVariables)
+					.getBody();
 	}
 
 	private static void createNew() {
