@@ -124,3 +124,12 @@ yard-module-cranes/.idea/$PROJECT_FILE$
 *.jar
 *.original
 *.lst
+yard-module-cranes/.classpath
+yard-module-cranes/.factorypath
+yard-module-cranes/.project
+yard-module-cranes/.settings/org.eclipse.core.resources.prefs
+*.prefs
+*.iml
+*.iml
+*.iml
+yard-module-cranes/cranes.iml
